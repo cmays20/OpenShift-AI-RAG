@@ -1,0 +1,12 @@
+resources:
+  - argocd-permissions.yaml
+  - cert-manager.yaml
+  - gpu-instance.yaml
+  - rhoai.yaml
+  - service-mesh.yaml
+  - serverless.yaml
+  - nfd.yaml
+  - nvidia.yaml
+  - oauth.yaml
+  - airplane-detection.yaml
+  - odf-lite.yaml
