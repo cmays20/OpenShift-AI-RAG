@@ -8,4 +8,4 @@ resources:
   - nfd.yaml
   - nvidia.yaml
   - oauth.yaml
-  - odf-lite.yaml
+#  - odf-lite.yaml
