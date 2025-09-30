@@ -8,5 +8,4 @@ resources:
   - nfd.yaml
   - nvidia.yaml
   - oauth.yaml
-  - airplane-detection.yaml
   - odf-lite.yaml
