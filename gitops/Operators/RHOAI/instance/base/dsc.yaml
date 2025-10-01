@@ -33,11 +33,11 @@ spec:
     kueue:
       managementState: Managed
     llamastackoperator:
-      managementState: Removed
+      managementState: Managed
     modelmeshserving:
       managementState: Managed
     modelregistry:
-      managementState: Removed
+      managementState: Managed
       registriesNamespace: rhoai-model-registries
     ray:
       managementState: Managed
