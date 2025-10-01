@@ -4,3 +4,4 @@ commonAnnotations:
 resources:
   - gpu-cluster-policy.yaml
   - nvidia-dcgm-exporter-dashboard.yaml
+  - device-plugin-config.yaml

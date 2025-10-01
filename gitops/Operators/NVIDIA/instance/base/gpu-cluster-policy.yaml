@@ -56,13 +56,7 @@ spec:
   devicePlugin:
     enabled: true
     config:
-      name: time-slicing
-      default: nvidia.com/gpu
-      sharing:
-        timeSlicing:
-          resources:
-            - name: nvidia.com/gpu
-              replicas: 4   # allows 4 pods to share one GPU
+      name: device-plugin-config
     mps:
       root: /run/nvidia/mps
   gfd:
