@@ -4,7 +4,7 @@ metadata:
   name: rhoai
   namespace: redhat-ods-operator
 spec:
-  channel: stable
+  channel: fast
   installPlanApproval: Automatic
   name: rhods-operator
   source: redhat-operators
