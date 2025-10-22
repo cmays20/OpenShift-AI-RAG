@@ -4,4 +4,5 @@ commonAnnotations:
 resources:
   - gpu-cluster-policy.yaml
   - nvidia-dcgm-exporter-dashboard.yaml
-  - device-plugin-config.yaml
+# This config can be used to enable GPU slicing
+#  - device-plugin-config.yaml
