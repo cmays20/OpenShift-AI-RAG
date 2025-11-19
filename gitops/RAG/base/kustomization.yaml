@@ -1,3 +1,5 @@
+namespace: rag
+
 resources:
   - namespace.yaml
   - llama-model.yaml

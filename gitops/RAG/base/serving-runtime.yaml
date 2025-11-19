@@ -12,7 +12,6 @@ metadata:
     openshift.io/display-name: llama-model
     argocd.argoproj.io/sync-wave: "1"
   name: llama-model
-  namespace: rag
   labels:
     opendatahub.io/dashboard: 'true'
 spec:

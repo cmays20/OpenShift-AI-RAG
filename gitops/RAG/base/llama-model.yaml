@@ -6,7 +6,6 @@ metadata:
     serving.kserve.io/deploymentMode: RawDeployment
     argocd.argoproj.io/sync-wave: "1"
   name: llama-model
-  namespace: rag
   finalizers:
     - inferenceservice.finalizers
     - odh.inferenceservice.finalizers
