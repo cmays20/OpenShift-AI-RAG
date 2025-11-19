@@ -1,3 +1,4 @@
 resources:
   - namespace.yaml
-#  - llama-model.yaml
+  - llama-model.yaml
+  - serving-runtime.yaml
