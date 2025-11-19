@@ -9,3 +9,4 @@ resources:
   - nvidia.yaml
   - oauth.yaml
   - odf-lite.yaml
+  - rag.yaml
