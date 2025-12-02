@@ -1,27 +1,27 @@
 - op: replace
   path: /metadata/name
-  value: mays-demo-m4jcl-gpu-us-east-2b
+  value: mays-demo-8bkld-gpu-us-east-2b
 - op: replace
   path: /metadata/labels/machine.openshift.io~1cluster-api-cluster
-  value: mays-demo-m4jcl
+  value: mays-demo-8bkld
 - op: replace
   path: /spec/selector/matchLabels/machine.openshift.io~1cluster-api-cluster
-  value: mays-demo-m4jcl
+  value: mays-demo-8bkld
 - op: replace
   path: /spec/selector/matchLabels/machine.openshift.io~1cluster-api-machineset
-  value: mays-demo-m4jcl-gpu-us-east-2b
+  value: mays-demo-8bkld-gpu-us-east-2b
 - op: replace
   path: /spec/template/metadata/labels/machine.openshift.io~1cluster-api-cluster
-  value: mays-demo-m4jcl
+  value: mays-demo-8bkld
 - op: replace
   path: /spec/template/metadata/labels/machine.openshift.io~1cluster-api-machineset
-  value: mays-demo-m4jcl-gpu-us-east-2b
+  value: mays-demo-8bkld-gpu-us-east-2b
 - op: replace
   path: /spec/template/spec/providerSpec/value/ami/id
   value: ami-082a55a580d5538ed
 - op: replace
   path: /spec/template/spec/providerSpec/value/iamInstanceProfile/id
-  value: mays-demo-m4jcl-worker-profile
+  value: mays-demo-8bkld-worker-profile
 - op: replace
   path: /spec/template/spec/providerSpec/value/placement/availabilityZone
   value: us-east-2b
@@ -30,13 +30,13 @@
   value: us-east-2
 - op: replace
   path: /spec/template/spec/providerSpec/value/securityGroups/0/filters/0/values/0
-  value: mays-demo-m4jcl-node
+  value: mays-demo-8bkld-node
 - op: replace
   path: /spec/template/spec/providerSpec/value/securityGroups/1/filters/0/values/0
-  value: mays-demo-m4jcl-lb
+  value: mays-demo-8bkld-lb
 - op: replace
   path: /spec/template/spec/providerSpec/value/subnet/filters/0/values/0
-  value: mays-demo-m4jcl-subnet-private-us-east-2b
+  value: mays-demo-8bkld-subnet-private-us-east-2b
 - op: replace
   path: /spec/template/spec/providerSpec/value/tags/0/name
-  value: kubernetes.io/cluster/mays-demo-m4jcl
+  value: kubernetes.io/cluster/mays-demo-8bkld
