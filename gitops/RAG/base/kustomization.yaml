@@ -2,7 +2,7 @@ namespace: rag
 
 resources:
   - namespace.yaml
-  - llama-model.yaml
+#  - llama-model.yaml
   - serving-runtime.yaml
   - llama-stack-secret.yaml
   - llama-stack-distribution.yaml
